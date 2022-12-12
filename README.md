@@ -7,16 +7,24 @@ Steve is looking to expand the dataset of his stock market analysis to include m
 ## Results
 
 Step 1a: I declared a variable, tickerIndex, set to 0 – tickerIndex = 0
+
 Step 1b: I created three output arrays:
  Dim tickerVolumes(12) As Long
  Dim tickerStartingPrice(12) As Single
  Dim tickerEndingPrice(12) As Single
+ 
 Step 2a: I constructed a for loop to set the tickerVolumes to 0.
+
 Step 2b: I built a for loop that iterates over all rows.
-Step 3a: Within the for loop in Step 2b, I wrote a script that increases the tickerVolumes (stock ticker volume) variable and adds the ticker volume for the current stock ticker, utilizing the tickerIndex variable as the index. 
+
+Step 3a: Within the for loop in Step 2b, I wrote a script that increases the tickerVolumes (stock ticker volume) variable and adds the ticker volume for the current stock ticker, utilizing the tickerIndex variable as the index.
+
 Step 3b: I wrote an if-then statement to check if the current row is the first row with the chosen tickerIndex. If so, then assign the current starting price to the tickerStartingPrices variable.
+
 Step 3c: I wrote an if-then statement to check if the current row is the last row with the chosen tickerIndex. If so, then assign the current closing price to the tickerEndingPrices variable
+
 Step 3d: I wrote a script that increases the tickerIndex if the subsequent row's ticker does not match the preceding row's ticker.
+
 Step 4: I utilized a for loop to iterate through the arrays (tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrices) to output the “Ticker,” “Total Daily Volume,” and “Return” columns in the spreadsheet.
 
 ##Summary
