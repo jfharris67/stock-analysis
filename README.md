@@ -2,7 +2,7 @@
 ## Overview of Project
 ### Purpose
 
-Steve is looking to expand the dataset of his stock market analysis to include more stocks. The current code works well for a small number of stocks, but it may not be efficient enough to handle a larger dataset. I will refactor the code to make it more efficient and to improve its performance. I plan to test the refactored code to determine whether it is faster and more reliable than the original version
+Steve is looking to expand the dataset of his stock market analysis to include more stocks. The current code works well for a small number of stocks, but it may not be efficient enough to handle a larger dataset. I will refactor the code to make it more efficient and improve its performance. I plan to test the refactored code to determine whether it is faster and more reliable than the original version
 
 ## Results
 
@@ -17,13 +17,13 @@ Step 2a: I constructed a for loop to set the tickerVolumes to 0.
 
 Step 2b: I built a for loop that iterates over all rows.
 
-Step 3a: Within the for loop in Step 2b, I wrote a script that increases the tickerVolumes (stock ticker volume) variable and adds the ticker volume for the current stock ticker, utilizing the tickerIndex variable as the index.
+Step 3a: Within the for loop in Step 2b, I wrote a script that increases the tickerVolumes variable and adds the volume for the current stock ticker, utilizing the tickerIndex variable as the index.
 
-Step 3b: I wrote an if-then statement to check if the current row is the first row with the chosen tickerIndex. If so, then assign the current starting price to the tickerStartingPrices variable.
+Step 3b: I wrote an if-then statement that checks if the current row is the first row with the chosen tickerIndex. If so, then assigns the current starting price to the tickerStartingPrices .
 
-Step 3c: I wrote an if-then statement to check if the current row is the last row with the chosen tickerIndex. If so, then assign the current closing price to the tickerEndingPrices variable
+Step 3c: I wrote an if-then statement that checks if the current row is the last row with the chosen tickerIndex. If so, then assigns the current closing price to the tickerEndingPrices.
 
-Step 3d: I wrote a script that increases the tickerIndex if the subsequent row's ticker does not match the preceding row's ticker.
+Step 3d: I wrote a script that will increase the tickerIndex if the subsequent row's ticker does not match the preceding row's ticker.
 
 Step 4: I utilized a for loop to iterate through the arrays (tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrices) to output the “Ticker,” “Total Daily Volume,” and “Return” columns in the spreadsheet.
 
@@ -34,7 +34,7 @@ Step 4: I utilized a for loop to iterate through the arrays (tickers, tickerVolu
 
 ##Summary
 
-## Advantages and Disadvantges of refctoring VBA Scripts
+## Advantages and Disadvantages of refactoring VBA Scripts
 
 ### Advantages:
 
@@ -51,9 +51,9 @@ There is a detailed statement on the advantages and disadvantages of the origina
 
 ## Pros and Cons Between Original and Refactored VBA Code
 ### Original Code
-Advantages - It was a lot easier to understand with my limited knowledge.  Took a lot less time to write. 
+Advantages - It was a lot easier to understand with my limited knowledge. Took a lot less time to write. 
 Disadvantages - The script had to run through all of the rows for each stock.
 
 ### Refactored Code
 Advantages - The refactored version took a fraction of the time to run compared to the first version. This is because the original version looped through all the rows in the spreadsheet for each stock, while the refactored version collected all the information in a single loop. Although the difference may not be noticeable with a small dataset, it is important to optimize performance for larger datasets.
-Disadvantages - The refactored script took a while tofigure out.  I am sure with more experience,my skill will improve.
+Disadvantages - The refactored script took a while to figure out. I am sure with more experience,my skill will improve.
