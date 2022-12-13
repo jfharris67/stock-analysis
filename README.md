@@ -51,4 +51,4 @@ Disadvantages - The script had to run through all of the rows for each stock.
 
 ### Refactored Code
 Advantages - The refactored version took a fraction of the time to run compared to the first version. This is because the original version looped through all the rows in the spreadsheet for each stock, while the refactored version collected all the information in a single loop. Although the difference may not be noticeable with a small dataset, it is important to optimize performance for larger datasets.
-Disadvantages - The refactored script took a while tofigure out
+Disadvantages - The refactored script took a while tofigure out.  I am sure with more experience,my skill will improve.
