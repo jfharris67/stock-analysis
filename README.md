@@ -46,4 +46,9 @@ There is a detailed statement on the advantages and disadvantages of the origina
 
 ## Pros and Cons Between Original and Refactored VBA Code
 ### Original Code
-Advantages - It was a lot easier to understand.  I had a lot of trouble figuring out the refactored code.  It was several hours of trial and error. 
+Advantages - It was a lot easier to understand with my limited knowledge.  Took a lot less time to write. 
+Disadvantages - The script had to run through all of the rows for each stock.
+
+### Refactored Code
+Advantages - The refactored version took a fraction of the time to run compared to the first version. This is because the original version looped through all the rows in the spreadsheet for each stock, while the refactored version collected all the information in a single loop. Although the difference may not be noticeable with a small dataset, it is important to optimize performance for larger datasets.
+Disadvantages - The refactored script took a while tofigure out
