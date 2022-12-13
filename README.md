@@ -27,6 +27,11 @@ Step 3d: I wrote a script that increases the tickerIndex if the subsequent row's
 
 Step 4: I utilized a for loop to iterate through the arrays (tickers, tickerVolumes, tickerStartingPrices, and tickerEndingPrices) to output the “Ticker,” “Total Daily Volume,” and “Return” columns in the spreadsheet.
 
+<img width="595" alt="Original 2017" src="https://user-images.githubusercontent.com/114355199/207204648-15f41a07-29d2-45b9-b4a1-857d41cc9e12.png">
+<img width="599" alt="Original 2018" src="https://user-images.githubusercontent.com/114355199/207204773-0b9eb65c-7ad4-42e0-ac70-2437fdeb4fc6.png">
+<img width="607" alt="Refactored 2017" src="https://user-images.githubusercontent.com/114355199/207204823-025307b2-6d83-4068-b7cf-973d04d3c538.png">
+<img width="603" alt="Refactored 2018" src="https://user-images.githubusercontent.com/114355199/207204865-e2ec9f03-fc90-44c5-a5f4-208afc38f6d2.png">
+
 ##Summary
 
 ## Advantages and Disadvantges of refctoring VBA Scripts
