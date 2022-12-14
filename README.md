@@ -2,7 +2,7 @@
 ## Overview of Project
 ### Purpose
 
-Steve is looking to expand the dataset of his stock market analysis to include more stocks. The current code works well for a small number of stocks, but it may not be efficient enough to handle a larger dataset. I will refactor the code to make it more efficient and improve its performance. I plan to test the refactored code to determine whether it is faster and more reliable than the original version
+Steve is looking to expand his stock market analysis dataset to include more stocks. The current code works well for the 12 stocks he initially requested, but if we want to add more stocks, the code run time will increase and may delay the output. Refactoring the code is the project's purpose of making this workbook future-proof if Steve wants to expand its use. I plan to test the refactored script to ensure the runtime has decreased as much as possible.
 
 ## Results
 
@@ -38,22 +38,23 @@ Step 4: I utilized a for loop to iterate through the arrays (tickers, tickerVolu
 
 ### Advantages:
 
-Refactoring VBA scripts can make the code easier to read and understand, which can make it easier to maintain and modify in the future.
-Refactoring VBA scripts can improve the performance of the code, making it run more quickly and efficiently.
-Refactoring VBA scripts can improve the reliability and stability of the code, reducing the risk of errors or bugs.
+- Refactoring VBA scripts can make the code easier to read and understand, making it easier to maintain and modify in the future.
+- Refactoring VBA scripts can improve the performance of the code, making it run more quickly and efficiently.
+- Refactoring VBA scripts can improve the reliability and stability of the code, reducing the risk of errors or bugs.
 
 ### Disadvantages:
 
-Refactoring VBA scripts can be time-consuming and complex, requiring significant effort and expertise.
-Refactoring VBA scripts can introduce errors or bugs, which can be difficult to detect and fix.
-Refactoring VBA scripts can be challenging for developers who are not familiar with the VBA language or the specific features and capabilities of Excel.
-There is a detailed statement on the advantages and disadvantages of the original and refactored VBA script (3 pt).
+- Refactoring VBA scripts can be time-consuming and complex, requiring significant effort and expertise.
+- Refactoring VBA scripts can introduce errors or bugs, which can be challenging to detect and fix.
+- Refactoring VBA scripts can be challenging for developers unfamiliar with the VBA language or Excel's specific features and capabilities.
+
 
 ## Pros and Cons Between Original and Refactored VBA Code
 ### Original Code
-Advantages - It was a lot easier to understand with my limited knowledge. Took a lot less time to write. 
-Disadvantages - The script had to run through all of the rows for each stock.
+Advantages: It was a lot easier to understand with my limited knowledge. Took a lot less time to write. 
+Disadvantages: The script had to run through all of the rows for each stock.
 
 ### Refactored Code
-Advantages - The refactored version took a fraction of the time to run compared to the first version. This is because the original version looped through all the rows in the spreadsheet for each stock, while the refactored version collected all the information in a single loop. Although the difference may not be noticeable with a small dataset, it is important to optimize performance for larger datasets.
-Disadvantages - The refactored script took a while to figure out. I am sure with more experience,my skill will improve.
+Advantages: The refactored version took a fraction of the time to run compared to the first version. This is because the original version looped through all the rows in the spreadsheet for each stock, while the refactored version collected all the information in a single loop. Although the difference may not be noticeable with a small dataset, optimizing performance for larger datasets is essential.
+Future proofing now will prevent the need to rework in the future.
+Disadvantages: The refactored script took a while to figure out. I am sure with more experience,my skill will improve.
