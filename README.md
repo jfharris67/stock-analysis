@@ -32,7 +32,7 @@ Step 4: I utilized a for loop to iterate through the arrays (tickers, tickerVolu
 <img width="607" alt="Refactored 2017" src="https://user-images.githubusercontent.com/114355199/207204823-025307b2-6d83-4068-b7cf-973d04d3c538.png">
 <img width="603" alt="Refactored 2018" src="https://user-images.githubusercontent.com/114355199/207204865-e2ec9f03-fc90-44c5-a5f4-208afc38f6d2.png">
 
-##Summary
+## Summary
 
 ## Advantages and Disadvantages of refactoring VBA Scripts
 
